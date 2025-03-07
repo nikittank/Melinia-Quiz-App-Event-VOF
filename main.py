@@ -22,7 +22,6 @@ if "show_gif" not in st.session_state:
     st.session_state.show_gif = True  # Show GIF initially
     st.session_state.start_time = time.time()  # Store the start time
 
-# Display GIF only if it was successfully loaded
 if gif_base64 and st.session_state.show_gif and (time.time() - st.session_state.start_time < 7):
     st.markdown(
         f"""
