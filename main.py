@@ -14,7 +14,7 @@ def get_gif_base64(url):
         return None
 
 # GitHub raw URL of the GIF
-gif_url = "https://raw.githubusercontent.com/S-U-R-Y-A-1/quiz_app/main/anode-avaxnode.gif"
+gif_url = "https://raw.githubusercontent.com/nikittank/QUIZ_APP/main/anode-avaxnode.gif"
 gif_base64 = get_gif_base64(gif_url)
 
 # Use session state to track first load
@@ -86,7 +86,7 @@ else:
     st.set_page_config(page_title="Quiz Game", page_icon="🎯", layout="wide")
 
 # ✅ Load the uploaded image
-    image_url = "https://raw.githubusercontent.com/S-U-R-Y-A-1/quiz_app/main/background.jpg"
+    image_url = "https://raw.githubusercontent.com/nikittank/QUIZ_APP/main/Background.jpg"
 
 # ✅ Function to fetch image from URL and convert to Base64
     def get_base64_from_url(image_url):
